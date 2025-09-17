@@ -18,23 +18,18 @@
                         <h1 class="text-center mb-4">¡Contactanos!</h1>
                         <form>
                             <div class="mb-3">
-                                <label for="names" class="form-label">Nombres</label>
-                                <input type="text" class="form-control" id="names" aria-describedby="nameHelp">
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="surnames" class="form-label">Apellidos</label>
-                                <input type="text" class="form-control" id="surnames">
+                                <label for="fullname" class="form-label">Nombre completo</label>
+                                <input type="text" class="form-control" id="fullname" aria-describedby="nameHelp" name="fullname">
                             </div>
 
                             <div class="mb-3">
                                 <label for="birthdate" class="form-label">Fecha de nacimiento</label>
-                                <input type="date" id="birthdate" name="birthdate" class="form-control" required />
+                                <input type="date" id="birthdate" name="birthdate" class="form-control" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="rut" class="form-label">Rut</label>
-                                <input type="text" class="form-control" id="rut" placeholder="11.111.111-1">
+                                <input type="text" class="form-control" id="rut" placeholder="11.111.111-1" name="rut">
                             </div>
 
                             <div class="mb-3">
@@ -42,18 +37,18 @@
                                 <div class="input-group">
                                     <span class="input-group-text" id="regional_number">+56</span>
                                     <input type="tel" class="form-control" id="phone" placeholder="9 1234 5678"
-                                        aria-describedby="regional_number">
+                                        aria-describedby="regional_number" name="phone">
                                 </div>
                             </div>
 
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
                             </div>
 
                             <div class="mb-3">
                                 <label for="textArea" class="form-label">Dejanos tu consulta</label>
-                                <textarea class="form-control" id="textArea" rows="3"></textarea>
+                                <textarea class="form-control" id="textArea" rows="3" name="message"></textarea>
                             </div>
 
                             <button type="submit" class="btn btn-primary d-block mx-auto">ENVIAR</button>
